@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 123
+  controlID: 112
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 325
     height: 716
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 987
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 39
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 716
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -264,15 +264,15 @@ MonoBehaviour:
     y: 0
     width: 1206
     height: 716
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,20 +376,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation/Animators
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animation/Animators
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\micha\John Lemon's Haunted Jaunt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 66}
-    m_SelectedIDs: dc390000
-    m_LastClickedID: 14812
-    m_ExpandedIDs: 0000000082390000883900009239000000ca9a3b
+    scrollPos: {x: 0, y: 46}
+    m_SelectedIDs: 583a0000
+    m_LastClickedID: 14936
+    m_ExpandedIDs: 00000000343a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000082390000
+    m_ExpandedIDs: 00000000343a0000363a0000383a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ee3e0000
-      m_LastClickedID: 16110
-      m_ExpandedIDs: 94dbffffda3e0000dc3e0000de3e0000ea3e0000ec3e0000ee3e0000f23e0000f63e0000f83e0000fa3e0000fc3e0000fe3e0000003f0000043f0000063f0000083f0000143f0000163f0000183f00001c3f00001e3f0000
+      m_SelectedIDs: f8edffff
+      m_LastClickedID: -4616
+      m_ExpandedIDs: faedffff40efffff52efffff70efffffd0efffff32fbffff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,16 +595,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 23e768e8f5ea47140997c9d9b1eb14a2
   m_Gizmos: 1
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.0852599, y: 0.5063809, z: 0.042257667}
+    m_Target: {x: 0.000000059604645, y: 0.7141001, z: 0.02930002}
     speed: 2
-    m_Value: {x: 0.0852599, y: 0.5063809, z: 0.042257667}
+    m_Value: {x: 0.000000059604645, y: 0.7141001, z: 0.02930002}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -650,9 +650,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0025898947, y: 0.98790044, z: -0.15416995, w: 0.01659946}
+    m_Target: {x: 0.0010721586, y: 0.9747135, z: -0.2234056, w: 0.0046800137}
     speed: 2
-    m_Value: {x: 0.0026147936, y: 0.9876691, z: -0.1556518, w: 0.016595572}
+    m_Value: {x: 0.0010721589, y: 0.9747138, z: -0.22340566, w: 0.004680015}
   m_Size:
     m_Target: 1.0428721
     speed: 2
@@ -742,7 +742,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
