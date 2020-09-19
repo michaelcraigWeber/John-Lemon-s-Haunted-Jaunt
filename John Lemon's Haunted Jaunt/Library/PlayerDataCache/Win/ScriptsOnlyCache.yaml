@@ -3,7 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GameEnding
     - LightFlicker
+    - Observer
     - PlayerMovement
+    - WaypointPatrol
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
@@ -36,8 +38,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -114,21 +118,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12554}
     - Class: 114
-      Script: {instanceID: 12714}
+      Script: {instanceID: 12640}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13374}
+      Script: {instanceID: 12864}
     - Class: 114
-      Script: {instanceID: 14074}
+      Script: {instanceID: 13376}
     - Class: 114
-      Script: {instanceID: 14122}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14124}
     - Class: 114
-      Script: {instanceID: 54124}
+      Script: {instanceID: 14218}
+    - Class: 114
+      Script: {instanceID: 23956}
+    - Class: 114
+      Script: {instanceID: 62188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -138,6 +146,8 @@ ScriptsOnlyBuild:
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -610,6 +620,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3599bbbae783f4ca02a593b1e6b645
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameEnding
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1110,12 +1126,18 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 52aa1777a63a75048298456c9e5b7ce5
+      Hash: 0f1977a7d51a5c5dee54d0932eea0adb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GameEnding
+    className: Observer
+  - hash:
+      serializedVersion: 2
+      Hash: 9a62527cf96c99811bbc76fe09736c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaypointPatrol
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   playerPath: C:/Users/micha/John Lemon's Haunted Jaunt/Builds/Windows/x86/John Lemon's
-    Haunted Jaunt (Tutorial).exe
+    Haunted Jaunt.exe
